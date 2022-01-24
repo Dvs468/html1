@@ -1,3 +1,4 @@
+images
 <!DOCTYPE html>
 <html>
 <body>
@@ -7,13 +8,5 @@
 <p style="color:blue;">Roses are yellow</p>
 <p style="font-size:50px;">Roses are purple</p>
 
-
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-
-  </body>
+</body>
 </html>
