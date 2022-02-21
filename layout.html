@@ -1,4 +1,104 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Vernanda, Times Roman, comic sans;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type:square
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Roses &#127799</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Red Roses</a></li>
+      <li><a href="#">Pink Roses</a></li>
+      <li><a href="#">Yellow Roses</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Roses</h1>
+    <p>A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars. They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Made by Dr. Roses &#127802;</p>
+</footer>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>_</head>
 <body class>
@@ -29,7 +129,7 @@
   <h1 style="background-color: powderblue;">Just Because</h1>
   <p style="background-color: yellow;">The Kindness Rose: Kindness for Real</p>
   <div class="container">
-  <header><b>Welcome to Layout!</b>
+  <header><b>Welcome to Roses "Just Because!"</b>
   </header>
   <nav>
 <p>Call me &#9742;</p>
