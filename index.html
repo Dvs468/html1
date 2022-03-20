@@ -7,7 +7,7 @@
   <title>Form</title>
 </head>
 <body>
- <form action="results.html" method="GET">
+ <form action="results.html" method="GET" enctype="multipart/form-data">
    <div>
      <label for="name">Name</label> 
      <input type="text" name="name" id="name"  required>
@@ -58,7 +58,16 @@
         <option label=White" value="White"></option>
    </select>
     </div>
-   <div>                                                            
+   <div>
+     <label for="kindness story">Kindness Story</label>
+     <textarea id="kindness story" name "kindness story"></textarea>
+   </div>
+   <input type="hidden" name="hidden" value="hi">
+   <div>
+     <label for="file">File</label>
+     <input id="file" type="file" name="file">
+   </div>
+   <div>  
      <label>
        Password
        <input type="password" name="password" required>
