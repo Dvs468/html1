@@ -1,31 +1,101 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-     link rel="stylesheet" href="order.html" type="text/css">
-  <title></title>
-/* CSS Document */
-header{width:100%;
-height: 50px:auto;
-background-color:  #666;}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+ <form action="results.html" method="GET" enctype="multipart/form-data">
+   <div>
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name"  required>
+   </div>
+   <div>
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email" required>
+   </div>
+   <div>
+     <label for="age">Age</label>
+     <input type=number" name="age" id="age" min="8" max="200">
+   </div>
+   <div>
+     <label for="date">Birthdate</label>
+     <input type="date" name="date" id="date" min="2014-01-01">
+   </div>
+   <div>
+     Favorite Rose Container
+     <div>
+       <label for="vase">Vase</label>
+       <input type="checkbox" name="vase" id="vase">
+   </div>
+   <div>
+     <label for="box">Box</label>
+       <input type="checkbox" name="box" id="box">
+   </div>
+   <div>
+     <label for="pot">Pot</label>
+       <input type="checkbox" name="pot" id="pot">
+   </div>
+  </div>
+  <div>
+    Gender
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male">
+    </div>
+   <div>
+     <label for="female">Female</label>
+     <input type="radio" name="gender" id="female" value="female">
+    </div>
+   <div>
+     <label for="rpseColor">Rose Color</label>
+     <select name="roseColor" id="roseColor" multiple>
+        <option value="Red">Red</option>
+        <option label=Pink" value="Pink"></option>
+        <option label=Yellow" value="Yellow"></option>
+        <option label=White" value="White"></option>
+   </select>
+    </div>
+   <div>
+     <label for="kindness story"><a href="results.html">Kindness Story</a></label>
+     <textarea id="kindness story" name "kindness story"></textarea>
+   </div>
+   <input type="hidden" name="hidden" value="hi">
+   <div>
+     <label for="file">File</label>
+     <input id="file" type="file" name="file">
+   </div>
+   <div>
+     <label for="phone">Phone</label>
+     <input type="tel" name="phone" id="phone">
+   </div>
+   <div>
+     <label for="url">URL</label>
+     <input type="url" name="url" id="url">
+   </div>
+   <div>
+     <label for="color">Color</label>
+     <input type="color" name="color" id="color">
+   </div>
+   <div>
+   <iframe src="Kindness:bold" style="border:bold;" rose="Iframe rosesred.jpg"></iframe>
+   </div>
+   <div>
+     <label>
+       Password
+       <input type="password" name="password" required>
+     </label>
+   </div>
+   <button type="reset">Reset</button>
+   <button type="submit">Submit</button>
+ </form>
+ </body>
+ <html>
 
- .flex-container {
-  display: flex;
-}
+  <p>Made by Ms. Val Davis &#127802;</p>
+</footer>
 
-.flex-container > div {
-  background-color: #666;
-  margin: 10px;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-
-}
-footer{width:100%;
-height:50px;
-background-color:white: }
-
-#container{
-   width:1020px;
-   margin: 0 auto:
- }
+</body>
+</html>
